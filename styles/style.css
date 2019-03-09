@@ -55,7 +55,7 @@ a:hover {
     text-transform: uppercase;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 10px;
-    margin: 30px 0 0 0;
+    margin: 14px 0 0 0;
     padding: 0;
     color: #ffffff;
 }
@@ -114,6 +114,12 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 
 .hex-row-1 {
     padding-top: 57px;
+}
+
+.hex-img-4 {
+    position: absolute;
+    top: -16px;
+    left: -20px;
 }
 
 .hex-row-2 {
@@ -257,7 +263,7 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 
 .social-networks {
     position: absolute;
-    bottom: 5%;
+    bottom: 5.3%;
     left: 80.5%;
 }
 
@@ -275,9 +281,9 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 .icon-facebook:before {
 	content: '\f30c';
 	font-family: Entypo;
-	color: #2eb398;
-    font-size: 13px;
-    padding: 5px 0 0 2px;
+	color: #03ac95;
+    font-size: 12px;
+    padding-left: 9px;
 }
 
 .icon-facebook:hover {
@@ -294,9 +300,9 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 .icon-twitter:before {
 	content: '\f309';
 	font-family: Entypo;
-	color: #2eb398;
-    font-size: 13px;
-    padding: 5px 0 0 4px;
+	color: #03ac95;
+    font-size: 12px;
+    padding-left: 7px;
 }
 
 .icon-twitter:hover {
@@ -313,9 +319,9 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 .icon-google:before {
 	content: '\f30f';
 	font-family: Entypo;
-	color: #2eb398;
-    font-size: 13px;
-    padding: 5px 0 0 4px;
+	color: #03ac95;
+    font-size: 12px;
+    padding-left: 7px;
 }
 
 .icon-google:hover {
@@ -332,9 +338,9 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 .icon-pinterest:before {
 	content: '\f312';
 	font-family: Entypo;
-	color: #2eb398;
-    font-size: 13px;
-    padding: 5px 0 0 4px;
+	color: #03ac95;
+    font-size: 12px;
+    padding-left: 7px;
 }
 
 .icon-pinterest:hover {
@@ -351,9 +357,9 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 .icon-linkedin:before {
 	content: '\f318';
 	font-family: Entypo;
-	color: #2eb398;
-    font-size: 13px;
-    padding: 5px 0 0 4px;
+	color: #03ac95;
+    font-size: 12px;
+    padding-left: 7px;
 }
 
 .icon-linkedin:hover {
@@ -370,9 +376,9 @@ header, .hex-row-1, .hex-row-2, .hex-row-3, .form {
 .icon-dribbble:before {
 	content: '\f31b';
 	font-family: Entypo;
-	color: #2eb398;
-    font-size: 13px;
-    padding: 5px 0 0 4px;
+	color: #03ac95;
+    font-size: 12px;
+    padding-left: 7px;
 }
 
 .icon-dribbble:hover {
@@ -574,4 +580,33 @@ fieldset textarea {
 
 .line-footer-bottom {
     margin-top: 551px;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Maven Pro Regular'), local('MavenPro-Regular'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au9p_AqnyWWAxW2Wk3GzWQI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: Entypo;
+    src: url(../assets/entypo/font/entypo.woff2) format('woff2');
 }
